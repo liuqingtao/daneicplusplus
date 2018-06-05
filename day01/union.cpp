@@ -1,6 +1,7 @@
 #include<cstdio>
 using namespace std;
 int main(void){
+    //匿名联合
     union{
         char c[4];
         int i;
